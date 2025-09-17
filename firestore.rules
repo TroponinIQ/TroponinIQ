@@ -1,0 +1,257 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // =============================================================================
+    // UTILITY FUNCTIONS
+    // =============================================================================
+    
+    // Check if user is authenticated
+    function isAuthenticated() {
+      return request.auth != null && request.auth.uid != null;
+    }
+    
+    // Check if user owns the resource
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+    
+    // Check if user owns the resource (from resource data)
+    function isResourceOwner() {
+      return isAuthenticated() && request.auth.uid == resource.data.userId;
+    }
+    
+    // Check if user is trying to create their own resource
+    function isCreatingOwnResource() {
+      return isAuthenticated() && request.auth.uid == request.resource.data.userId;
+    }
+    
+    // Valid user data fields for updates
+    function validUserUpdate() {
+      return request.resource.data.keys().hasOnly([
+               'email', 'displayName', 'displayImage', 'updatedAt',
+               'stripeCustomerId', 'previousStripeCustomerId', 'activeSubscriptionId', 'magicLinkToken',
+               'magicLinkExpires', 'magicLinkUsed', 'lastMagicLinkSent', 'magicLinkCount'
+             ]);
+    }
+    
+    // Check if this is a server-side operation (no auth context)
+    function isServerOperation() {
+      return request.auth == null;
+    }
+    
+    // Valid chat visibility values
+    function validVisibility() {
+      return request.resource.data.visibility in ['private', 'public'];
+    }
+    
+    // =============================================================================
+    // USER COLLECTIONS (both 'users' and 'Users' for compatibility)
+    // =============================================================================
+    
+    // Main users collection (lowercase)
+    match /users/{userId} {
+      // Users can read their own profile
+      allow read: if isOwner(userId);
+      
+      // Users can create their own profile (during registration)
+      allow create: if isOwner(userId) &&
+                       request.resource.data.keys().hasAll(['email']) &&
+                       request.resource.data.email is string &&
+                       request.resource.data.email.matches('.*@.*');
+      
+      // Users can update their own profile with valid fields
+      // OR server can update for subscription management
+      allow update: if (isOwner(userId) && validUserUpdate()) ||
+                       isServerOperation();
+      
+      // No deletion allowed (use soft delete if needed)
+      allow delete: if false;
+    }
+    
+    // Legacy Users collection (capitalized) - for backwards compatibility
+    match /Users/{userId} {
+      allow read: if isOwner(userId);
+      allow create: if isOwner(userId) &&
+                       request.resource.data.keys().hasAll(['email']) &&
+                       request.resource.data.email is string &&
+                       request.resource.data.email.matches('.*@.*');
+      allow update: if (isOwner(userId) && validUserUpdate()) ||
+                       isServerOperation();
+      allow delete: if false;
+    }
+    
+    // =============================================================================
+    // CHAT SYSTEM
+    // =============================================================================
+    
+    // Chats collection
+    match /chats/{chatId} {
+      // Users can read their own chats or public chats
+      allow read: if isAuthenticated() && 
+                     (isResourceOwner() || resource.data.visibility == 'public');
+      
+      // Users can create their own chats
+      allow create: if isCreatingOwnResource() &&
+                       validVisibility() &&
+                       request.resource.data.keys().hasAll(['userId', 'title', 'visibility']) &&
+                       request.resource.data.title is string &&
+                       request.resource.data.title.size() > 0;
+      
+      // Users can update their own chats
+      allow update: if isResourceOwner() &&
+                       validVisibility() &&
+                       request.resource.data.userId == resource.data.userId; // Can't change ownership
+      
+      // Users can delete their own chats
+      allow delete: if isResourceOwner();
+      
+      // Messages subcollection within chats
+      match /messages/{messageId} {
+        // Users can read messages from chats they have access to
+        allow read: if isAuthenticated() && 
+                       (get(/databases/$(database)/documents/chats/$(chatId)).data.userId == request.auth.uid ||
+                        get(/databases/$(database)/documents/chats/$(chatId)).data.visibility == 'public');
+        
+        // Users can create messages in their own chats
+        allow create: if isAuthenticated() &&
+                         get(/databases/$(database)/documents/chats/$(chatId)).data.userId == request.auth.uid &&
+                         request.resource.data.keys().hasAll(['role', 'content']) &&
+                         request.resource.data.role in ['user', 'assistant', 'system', 'function', 'data', 'tool'] &&
+                         request.resource.data.content is string;
+        
+        // Users can update messages in their own chats
+        allow update: if isAuthenticated() &&
+                         get(/databases/$(database)/documents/chats/$(chatId)).data.userId == request.auth.uid;
+        
+        // Users can delete messages from their own chats
+        allow delete: if isAuthenticated() &&
+                         get(/databases/$(database)/documents/chats/$(chatId)).data.userId == request.auth.uid;
+      }
+    }
+    
+    // =============================================================================
+    // FEEDBACK SYSTEM
+    // =============================================================================
+    
+    match /feedback/{feedbackId} {
+      // Users can read their own feedback
+      allow read: if isResourceOwner();
+      
+      // Users can create their own feedback
+      allow create: if isCreatingOwnResource() &&
+                       request.resource.data.keys().hasAll(['userId', 'type', 'title', 'description']) &&
+                       request.resource.data.type in ['bug', 'feature', 'improvement', 'other'] &&
+                       request.resource.data.title is string &&
+                       request.resource.data.description is string &&
+                       request.resource.data.title.size() > 0 &&
+                       request.resource.data.description.size() > 0;
+      
+      // Users cannot update or delete feedback (immutable after creation)
+      allow update, delete: if false;
+    }
+    
+    // =============================================================================
+    // SYSTEM MESSAGES
+    // =============================================================================
+    
+    // System messages - readable by all authenticated users, writable only by admins/server
+    match /systemMessages/{messageId} {
+      // All authenticated users can read active system messages
+      allow read: if isAuthenticated();
+      
+      // Only server/admin operations can write system messages
+      allow write: if isServerOperation();
+    }
+    
+    // System message dismissals - users can manage their own dismissals
+    match /systemMessageDismissals/{dismissalId} {
+      // Users can read their own dismissals
+      allow read: if isResourceOwner();
+      
+      // Users can create their own dismissals
+      allow create: if isCreatingOwnResource() &&
+                       request.resource.data.keys().hasAll(['userId', 'messageId']) &&
+                       request.resource.data.userId is string &&
+                       request.resource.data.messageId is string;
+      
+      // Users cannot update or delete dismissals (immutable after creation)
+      allow update, delete: if false;
+    }
+    
+    // =============================================================================
+    // SUBSCRIPTION SYSTEM
+    // =============================================================================
+    
+    // Subscriptions - managed by Stripe webhooks, read-only for users
+    match /subscriptions/{subscriptionId} {
+      // Users can read their own subscription data
+      allow read: if isResourceOwner();
+      
+      // Only server/webhooks can write subscription data
+      allow write: if isServerOperation();
+    }
+    
+    // Checkout sessions - managed by server, read-only for users
+    match /checkoutSessions/{sessionId} {
+      // Users can read their own checkout sessions
+      allow read: if isResourceOwner();
+      
+      // Only server can write checkout session data
+      allow write: if isServerOperation();
+    }
+    
+    // Stripe events - server-only collection for webhook processing
+    match /stripeEvents/{eventId} {
+      // No client access - server/webhook only
+      allow read, write: if isServerOperation();
+    }
+    
+    // =============================================================================
+    // ADDITIONAL COLLECTIONS (for future extensibility)
+    // =============================================================================
+    
+    // Documents collection (if used for file attachments, etc.)
+    match /documents/{documentId} {
+      allow read: if isResourceOwner();
+      allow create: if isCreatingOwnResource();
+      allow update: if isResourceOwner();
+      allow delete: if isResourceOwner();
+    }
+    
+    // Suggestions collection (if used for AI suggestions, etc.)
+    match /suggestions/{suggestionId} {
+      allow read: if isResourceOwner();
+      allow create: if isCreatingOwnResource();
+      allow update: if isResourceOwner();
+      allow delete: if isResourceOwner();
+    }
+    
+    // Votes collection (if used for message voting, etc.)
+    match /votes/{voteId} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated() &&
+                       request.resource.data.keys().hasAll(['chatId', 'messageId', 'isUpvoted']);
+      allow update: if isAuthenticated();
+      allow delete: if isAuthenticated();
+    }
+    
+    // Streams collection (if used for real-time streaming, etc.)
+    match /streams/{streamId} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated() &&
+                       request.resource.data.keys().hasAll(['chatId']);
+      allow update: if isAuthenticated();
+      allow delete: if isAuthenticated();
+    }
+    
+    // =============================================================================
+    // FALLBACK RULE
+    // =============================================================================
+    
+    // Deny all other requests by default
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+} 
