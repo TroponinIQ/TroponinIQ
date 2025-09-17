@@ -1,0 +1,357 @@
+{
+    "metadata": {
+        "purpose": "Quick reference for AI agents to make fast product recommendations",
+        "lastUpdated": "2024-01-15"
+    },
+    "byGoal": {
+        "energy": {
+            "description": "Products for boosting energy and focus",
+            "products": [
+                "atp",
+                "wtf-pre-workout",
+                "the-fat-burner"
+            ],
+            "stacks": [
+                "training-stack"
+            ],
+            "books": [],
+            "programs": []
+        },
+        "recovery": {
+            "description": "Products for muscle recovery and sleep",
+            "products": [
+                "hit-the-rack",
+                "field-rations"
+            ],
+            "stacks": [
+                "muscle-repair-recovery-stack"
+            ],
+            "books": [
+                "hmw-carbs-explained"
+            ],
+            "programs": []
+        },
+        "fat-loss": {
+            "description": "Products supporting fat loss and metabolism",
+            "products": [
+                "the-fat-burner",
+                "suppressor-max",
+                "wtf-pre-workout"
+            ],
+            "stacks": [],
+            "books": [],
+            "programs": [
+                "shredded-carb-cycling"
+            ]
+        },
+        "muscle-building": {
+            "description": "Products for muscle growth and strength",
+            "products": [
+                "micronized-creatine-monohydrate",
+                "field-rations",
+                "wtf-pre-workout"
+            ],
+            "stacks": [
+                "training-stack",
+                "muscle-repair-recovery-stack"
+            ],
+            "books": [
+                "critical-mass-paperback"
+            ],
+            "programs": [
+                "critical-mass-diet",
+                "critical-mass-training",
+                "massive-carb-cycling"
+            ]
+        },
+        "organ-health": {
+            "description": "Products for liver, kidney, and overall organ health",
+            "products": [
+                "renal-reset",
+                "qrf-liver-support",
+                "suppressor-max"
+            ],
+            "stacks": [
+                "optimal-organ-protection-stack"
+            ],
+            "books": [],
+            "programs": []
+        },
+        "blood-sugar": {
+            "description": "Products for glucose management and carb control",
+            "products": [
+                "suppressor-max"
+            ],
+            "stacks": [
+                "optimal-organ-protection-stack"
+            ],
+            "books": [],
+            "programs": [
+                "final-week-blood-sugar"
+            ]
+        },
+        "pre-workout": {
+            "description": "Products to take before training",
+            "products": [
+                "wtf-pre-workout",
+                "atp"
+            ],
+            "stacks": [
+                "training-stack"
+            ],
+            "books": [],
+            "programs": []
+        },
+        "sleep": {
+            "description": "Products for better sleep and nighttime recovery",
+            "products": [
+                "hit-the-rack"
+            ],
+            "stacks": [
+                "muscle-repair-recovery-stack"
+            ],
+            "books": [],
+            "programs": []
+        },
+        "education": {
+            "description": "Educational content for learning nutrition and training",
+            "products": [],
+            "stacks": [],
+            "books": [
+                "cpn-vol-1",
+                "cpn-vol-2",
+                "cpn-paperback-vol-1",
+                "cpn-paperback-vol-2"
+            ],
+            "programs": []
+        },
+        "strength": {
+            "description": "Training for maximum strength development",
+            "products": [
+                "micronized-creatine-monohydrate"
+            ],
+            "stacks": [],
+            "books": [
+                "power-bodybuilding-paperback"
+            ],
+            "programs": [
+                "power-bodybuilding-training",
+                "static-strength"
+            ]
+        },
+        "competition-prep": {
+            "description": "Competition preparation and contest optimization",
+            "products": [],
+            "stacks": [],
+            "books": [],
+            "programs": [
+                "final-week-blood-sugar",
+                "water-cutting-loading"
+            ]
+        },
+        "busy-lifestyle": {
+            "description": "Solutions for busy professionals and executives",
+            "products": [],
+            "stacks": [],
+            "books": [
+                "executive-fitness"
+            ],
+            "programs": []
+        },
+        "advanced-training": {
+            "description": "Advanced training methods for experienced athletes",
+            "products": [],
+            "stacks": [],
+            "books": [
+                "fatal-fitness"
+            ],
+            "programs": []
+        },
+        "home-gym": {
+            "description": "Training solutions for home or garage gyms",
+            "products": [],
+            "stacks": [],
+            "books": [],
+            "programs": [
+                "static-strength"
+            ]
+        }
+    },
+    "byCategory": {
+        "stimulants": {
+            "description": "Products containing caffeine or stimulants",
+            "products": [
+                "atp",
+                "wtf-pre-workout",
+                "the-fat-burner"
+            ]
+        },
+        "non-stimulant": {
+            "description": "Products without stimulants",
+            "products": [
+                "field-rations",
+                "hit-the-rack",
+                "micronized-creatine-monohydrate",
+                "renal-reset",
+                "qrf-liver-support",
+                "suppressor-max"
+            ]
+        },
+        "powder": {
+            "description": "Products in powder/drink mix form",
+            "products": [
+                "field-rations",
+                "hit-the-rack",
+                "wtf-pre-workout",
+                "micronized-creatine-monohydrate"
+            ]
+        },
+        "capsules": {
+            "description": "Products in capsule/pill form",
+            "products": [
+                "atp",
+                "renal-reset",
+                "suppressor-max",
+                "qrf-liver-support",
+                "the-fat-burner"
+            ]
+        },
+        "workout-support": {
+            "description": "Products for workout performance",
+            "products": [
+                "wtf-pre-workout",
+                "field-rations",
+                "atp",
+                "micronized-creatine-monohydrate"
+            ]
+        },
+        "health-optimization": {
+            "description": "Products for overall health and wellness",
+            "products": [
+                "renal-reset",
+                "qrf-liver-support",
+                "suppressor-max",
+                "hit-the-rack"
+            ]
+        },
+        "educational-content": {
+            "description": "Books and programs for learning",
+            "books": [
+                "cpn-vol-1",
+                "cpn-vol-2",
+                "cpn-paperback-vol-1",
+                "cpn-paperback-vol-2",
+                "executive-fitness",
+                "fatal-fitness",
+                "hmw-carbs-explained"
+            ],
+            "programs": [
+                "critical-mass-diet",
+                "critical-mass-training",
+                "massive-carb-cycling",
+                "shredded-carb-cycling",
+                "power-bodybuilding-training",
+                "static-strength"
+            ]
+        },
+        "digital-products": {
+            "description": "Digital downloads and e-books",
+            "books": [
+                "cpn-vol-1",
+                "cpn-vol-2",
+                "executive-fitness",
+                "fatal-fitness",
+                "hmw-carbs-explained"
+            ],
+            "programs": [
+                "critical-mass-diet",
+                "critical-mass-training",
+                "final-week-blood-sugar",
+                "massive-carb-cycling",
+                "power-bodybuilding-training",
+                "shredded-carb-cycling",
+                "static-strength",
+                "water-cutting-loading"
+            ]
+        },
+        "physical-products": {
+            "description": "Physical books and printed materials",
+            "books": [
+                "cpn-paperback-vol-1",
+                "cpn-paperback-vol-2",
+                "critical-mass-paperback",
+                "power-bodybuilding-paperback"
+            ]
+        }
+    },
+    "popularStacks": {
+        "description": "Most recommended supplement stacks",
+        "items": [
+            {
+                "id": "training-stack",
+                "name": "Training Stack",
+                "focus": "Complete workout optimization"
+            },
+            {
+                "id": "muscle-repair-recovery-stack",
+                "name": "Muscle Repair & Recovery Stack",
+                "focus": "24-hour recovery solution"
+            },
+            {
+                "id": "optimal-organ-protection-stack",
+                "name": "Optimal Organ Protection Stack",
+                "focus": "Comprehensive organ health"
+            }
+        ]
+    },
+    "popularEducation": {
+        "description": "Most recommended educational content",
+        "beginner": [
+            {
+                "id": "cpn-vol-1",
+                "name": "Comprehensive Performance Nutrition – Volume 1",
+                "focus": "Nutrition fundamentals"
+            },
+            {
+                "id": "massive-carb-cycling",
+                "name": "MASSIVE – A Carb Cycling Approach for Mass",
+                "focus": "Mass gain diet program"
+            }
+        ],
+        "advanced": [
+            {
+                "id": "cpn-vol-2",
+                "name": "Comprehensive Performance Nutrition – Volume 2",
+                "focus": "Advanced nutrition strategies"
+            },
+            {
+                "id": "fatal-fitness",
+                "name": "Fatal Fitness",
+                "focus": "Extreme conditioning program"
+            }
+        ],
+        "professional": [
+            {
+                "id": "executive-fitness",
+                "name": "Executive Fitness",
+                "focus": "Busy professional lifestyle"
+            }
+        ]
+    },
+    "keywordMapping": {
+        "coaching": "redirect-to-troponin-nutrition",
+        "personal": "redirect-to-troponin-nutrition",
+        "consultation": "redirect-to-troponin-nutrition",
+        "custom": "redirect-to-troponin-nutrition",
+        "buy": "focus-on-products",
+        "shop": "focus-on-products",
+        "supplement": "focus-on-products",
+        "stack": "focus-on-stacks",
+        "bundle": "focus-on-stacks",
+        "learn": "focus-on-education",
+        "book": "focus-on-education",
+        "program": "focus-on-education",
+        "guide": "focus-on-education",
+        "course": "focus-on-education"
+    }
+}

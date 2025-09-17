@@ -1,0 +1,778 @@
+{
+    "metadata": {
+        "category": "individual-supplements",
+        "totalProducts": 9,
+        "lastUpdated": "2024-01-15"
+    },
+    "products": [
+        {
+            "id": "atp",
+            "name": "ATP",
+            "category": "individual-supplements",
+            "type": "supplement",
+            "availableOn": [
+                "troponin-nutrition",
+                "troponin-supplements"
+            ],
+            "description": "Advanced Focus & Cellular Vitality Support. Next-generation effervescent formula designed to promote natural energy production, cognitive performance, and enhanced vitality. Delivers a smooth, clean boost without the crash.",
+            "flavor": "Sour Watermelon",
+            "keyBenefits": [
+                "Supports Healthy Brain Function & Mental Clarity",
+                "Promotes Natural Cellular Energy Production",
+                "Helps Reduce Feelings of Fatigue",
+                "Effervescent Delivery for Rapid Absorption",
+                "Contains Antioxidant & Neuroprotective Compounds"
+            ],
+            "servingInfo": {
+                "servingSize": "1 capsule",
+                "servingsPerContainer": 30
+            },
+            "keyIngredients": [
+                {
+                    "name": "Sodium (from Sodium Bicarbonate)",
+                    "amount": "169.78mg",
+                    "purpose": "Electrolyte and pH balance",
+                    "dvPercent": "7.38%"
+                },
+                {
+                    "name": "Potassium (from Potassium Bicarbonate)",
+                    "amount": "117mg",
+                    "purpose": "Electrolyte and nerve function",
+                    "dvPercent": "2.48%"
+                },
+                {
+                    "name": "Caffeine Anhydrous",
+                    "amount": "300mg",
+                    "purpose": "Mental alertness and energy",
+                    "dvPercent": null
+                },
+                {
+                    "name": "Theacrine (as TeaCrine®)",
+                    "amount": "50mg",
+                    "purpose": "Synergistic compound for energy",
+                    "dvPercent": null
+                },
+                {
+                    "name": "4'-DMA-7,8-Dihydroxyflavone",
+                    "amount": "10mg",
+                    "purpose": "Nootropic compound for cognitive support",
+                    "dvPercent": null
+                }
+            ],
+            "otherIngredients": [
+                "Malic acid",
+                "Natural & Artificial Sour Watermelon Flavor",
+                "Bitter Blocker 2X",
+                "Citric Acid",
+                "Sucralose",
+                "Beet Juice Powder",
+                "L-Leucine"
+            ],
+            "usage": {
+                "dosage": "1 capsule",
+                "timing": "Up to 3 times daily, take earlier in the day",
+                "instructions": "Dissolve 1 tablet in 8–12 fl oz of water and drink"
+            },
+            "warnings": [
+                "Contains caffeine. Do not use with other stimulants.",
+                "Not for children or those sensitive to caffeine.",
+                "Consult healthcare provider before using."
+            ],
+            "websiteUrl": "https://troponinsupplements.com/collections/all-supplements/products/atp",
+            "tags": [
+                "energy",
+                "focus",
+                "nootropic",
+                "vitality",
+                "effervescent",
+                "performance"
+            ]
+        },
+        {
+            "id": "field-rations",
+            "name": "Field Rations",
+            "category": "individual-supplements",
+            "type": "supplement",
+            "availableOn": [
+                "troponin-nutrition",
+                "troponin-supplements"
+            ],
+            "description": "Elite intra-workout solution formulated for sustained performance, muscle hydration, increased pumps, and enhanced recovery during tough training sessions.",
+            "flavor": "[missing]",
+            "keyBenefits": [
+                "Sustained Energy with Cluster Dextrin",
+                "Amplifies Blood Flow with L-Citrulline",
+                "Maintains Hydration and Muscle Function",
+                "Supports Cellular Recovery with Senactiv",
+                "Complete amino acid profile for muscle protection",
+                "No Stimulants"
+            ],
+            "servingInfo": {
+                "servingSize": "1 scoop (43g)",
+                "servingsPerContainer": 20
+            },
+            "keyIngredients": [
+                {
+                    "name": "Cluster Dextrin® (Highly Branched Cyclic Dextrin)",
+                    "amount": "25,000mg",
+                    "purpose": "Smooth, sustained carbohydrate energy"
+                },
+                {
+                    "name": "BCAA 2:1:1 (L-Leucine: L-Isoleucine: L-Valine)",
+                    "amount": "7,450mg",
+                    "purpose": "Muscle protein synthesis and anti-catabolism"
+                },
+                {
+                    "name": "Dextrose",
+                    "amount": "5,000mg",
+                    "purpose": "Fast-acting carbohydrate energy"
+                },
+                {
+                    "name": "Betaine Anhydrous",
+                    "amount": "1,000mg",
+                    "purpose": "Power output and muscle growth"
+                },
+                {
+                    "name": "L-Taurine",
+                    "amount": "1,000mg",
+                    "purpose": "Supports hydration and muscle function"
+                },
+                {
+                    "name": "L-Histidine HCl",
+                    "amount": "500mg",
+                    "purpose": "Essential amino acid for muscle building"
+                },
+                {
+                    "name": "L-Lysine",
+                    "amount": "500mg",
+                    "purpose": "Essential amino acid for protein synthesis"
+                },
+                {
+                    "name": "L-Phenylalanine",
+                    "amount": "500mg",
+                    "purpose": "Essential amino acid for neurotransmitter production"
+                },
+                {
+                    "name": "L-Threonine",
+                    "amount": "500mg",
+                    "purpose": "Essential amino acid for immune function"
+                },
+                {
+                    "name": "L-Methionine",
+                    "amount": "250mg",
+                    "purpose": "Essential amino acid for tissue repair"
+                },
+                {
+                    "name": "L-Tryptophan",
+                    "amount": "50mg",
+                    "purpose": "Essential amino acid for recovery"
+                },
+                {
+                    "name": "Sodium (as Himalayan Pink Sea Salt)",
+                    "amount": "507mg",
+                    "purpose": "Electrolyte balance and hydration",
+                    "dvPercent": "22%"
+                },
+                {
+                    "name": "Potassium (as Potassium Gluconate)",
+                    "amount": "201.7mg",
+                    "purpose": "Electrolyte balance and muscle function",
+                    "dvPercent": "4%"
+                }
+            ],
+            "otherIngredients": [
+                "Natural & Artificial Flavors",
+                "Malic Acid",
+                "Citric Acid",
+                "Silicon Dioxide",
+                "Sucralose"
+            ],
+            "usage": {
+                "dosage": "1 scoop",
+                "timing": "During workout",
+                "instructions": "Mix 1 scoop with 16-24 oz of cold water and sip throughout workout"
+            },
+            "warnings": [
+                "[missing]"
+            ],
+            "websiteUrl": "https://troponinsupplements.com/collections/all-supplements/products/field-rations-intra-workout-drink",
+            "tags": [
+                "intra-workout",
+                "hydration",
+                "endurance",
+                "pump",
+                "recovery",
+                "amino acids",
+                "no stimulant"
+            ]
+        },
+        {
+            "id": "renal-reset",
+            "name": "Renal Reset",
+            "category": "individual-supplements",
+            "type": "supplement",
+            "availableOn": [
+                "troponin-nutrition",
+                "troponin-supplements"
+            ],
+            "description": "Kidney health and GFR support supplement designed to improve kidney function, lower blood pressure, and promote optimal kidney health.",
+            "flavor": "[missing]",
+            "keyBenefits": [
+                "Improve Kidney Function",
+                "Lower Blood Pressure",
+                "Promotes B-Cell Proliferation",
+                "Reduces Antibody Production",
+                "Supports Glomerular Filtration Rate (GFR)"
+            ],
+            "servingInfo": {
+                "servingSize": "7 capsules",
+                "servingsPerContainer": 30
+            },
+            "keyIngredients": [
+                {
+                    "name": "Organic Astragalus Powder (root)",
+                    "amount": "3,000mg",
+                    "purpose": "Kidney support and immune function"
+                },
+                {
+                    "name": "Grape Seed Extract (std for 95% proanthocyanidins)",
+                    "amount": "1,500mg",
+                    "purpose": "Antioxidant support and cardiovascular health"
+                },
+                {
+                    "name": "Ginger Extract (root, std to 5% Gingerols)",
+                    "amount": "1,000mg",
+                    "purpose": "Anti-inflammatory and circulation support"
+                }
+            ],
+            "otherIngredients": [
+                "Gelatin (capsules)",
+                "Silicon Dioxide",
+                "Magnesium Stearate"
+            ],
+            "usage": {
+                "dosage": "7 capsules",
+                "timing": "Any time of day (can be split between AM/PM)",
+                "instructions": "Take 7 capsules once daily or split into AM/PM doses"
+            },
+            "warnings": [
+                "[missing]"
+            ],
+            "websiteUrl": "https://troponinsupplements.com/collections/all-supplements/products/renal-reset-kidney-product",
+            "tags": [
+                "kidney",
+                "renal",
+                "gfr",
+                "blood pressure",
+                "organ health",
+                "b-cell"
+            ]
+        },
+        {
+            "id": "suppressor-max",
+            "name": "Suppressor Max",
+            "category": "individual-supplements",
+            "type": "supplement",
+            "availableOn": [
+                "troponin-nutrition",
+                "troponin-supplements"
+            ],
+            "description": "Glucose disposal agent formulated to enhance carb utilization, support optimal blood sugar levels, and reduce energy crashes.",
+            "flavor": "[missing]",
+            "keyBenefits": [
+                "Enhances Absorption of Berberine",
+                "Improves Blood Sugar Management",
+                "Effective Glucose Disposal Agent (GDA)",
+                "Supports Carb Control and Partitioning",
+                "Reduces Carb-Related Energy Crash"
+            ],
+            "servingInfo": {
+                "servingSize": "7 capsules",
+                "servingsPerContainer": 30
+            },
+            "keyIngredients": [
+                {
+                    "name": "Berberine 97% (Phellodendron amurense Rupr.)",
+                    "amount": "1,500mg",
+                    "purpose": "Blood sugar regulation and glucose disposal"
+                },
+                {
+                    "name": "Cinnamon Bark Powder (Cinnamomum cassia) (Bark)",
+                    "amount": "1,300mg",
+                    "purpose": "Insulin sensitivity and glucose metabolism"
+                },
+                {
+                    "name": "Fenugreek (Trigonella foenum-graecum) (Seed) (std 50% Saponins)",
+                    "amount": "750mg",
+                    "purpose": "Blood sugar support and nutrient absorption"
+                },
+                {
+                    "name": "1-Nonanecarboxylic Acid (Sodium Caprate)",
+                    "amount": "500mg",
+                    "purpose": "Enhanced absorption and bioavailability"
+                },
+                {
+                    "name": "NA-R-Alpha Lipoic Acid (NA-R-ALA)",
+                    "amount": "200mg",
+                    "purpose": "Antioxidant support and glucose metabolism"
+                },
+                {
+                    "name": "Black Pepper Extract (Piper nigrum) (Fruit) (std 95% Piperine)",
+                    "amount": "5mg",
+                    "purpose": "Enhanced absorption of other ingredients"
+                }
+            ],
+            "otherIngredients": [
+                "Cellulose (Vegetable Capsule)",
+                "Rice Flour",
+                "Magnesium Stearate",
+                "Silicon Dioxide"
+            ],
+            "usage": {
+                "dosage": "7 capsules",
+                "timing": "Take as needed (1-2x per day)",
+                "instructions": "Take with 8-12 fl oz of water"
+            },
+            "warnings": [
+                "[missing]"
+            ],
+            "websiteUrl": "https://troponinsupplements.com/collections/all-supplements/products/suppressor-max",
+            "tags": [
+                "gda",
+                "glucose",
+                "carb",
+                "insulin",
+                "berberine",
+                "partitioning"
+            ]
+        },
+        {
+            "id": "hit-the-rack",
+            "name": "Hit The Rack",
+            "category": "individual-supplements",
+            "type": "supplement",
+            "availableOn": [
+                "troponin-nutrition",
+                "troponin-supplements"
+            ],
+            "description": "Night Time Recovery supplement formulated to help you fall asleep, stay asleep, and wake up feeling recovered from activity the day before.",
+            "flavor": "Mixed Berry",
+            "keyBenefits": [
+                "Increased Post-Workout Recovery",
+                "Helps You Fall Asleep & Stay Asleep",
+                "Wake Up Rested The Next Day",
+                "Aids In Reducing Anxiety",
+                "Easy To Mix & Great Tasting"
+            ],
+            "servingInfo": {
+                "servingSize": "1 scoop (10g)",
+                "servingsPerContainer": 20
+            },
+            "keyIngredients": [
+                {
+                    "name": "Vitamin D3 (as Cholecalciferol)",
+                    "amount": "100mcg",
+                    "purpose": "Bone health and immune support",
+                    "dvPercent": "500%"
+                },
+                {
+                    "name": "Magnesium (as Magnesium Bisglycinate)",
+                    "amount": "225mg",
+                    "purpose": "Muscle relaxation and sleep support",
+                    "dvPercent": "56%"
+                },
+                {
+                    "name": "Selenium Citrate",
+                    "amount": "100mcg",
+                    "purpose": "Antioxidant support",
+                    "dvPercent": "143%"
+                },
+                {
+                    "name": "Potassium (as Potassium Citrate)",
+                    "amount": "175mg",
+                    "purpose": "Electrolyte balance",
+                    "dvPercent": "37%"
+                },
+                {
+                    "name": "Holy Basil (leaf) (Ocimum sanctum)",
+                    "amount": "600mg",
+                    "purpose": "Stress adaptation and relaxation"
+                },
+                {
+                    "name": "Lion's Mane Mushroom Powder (Hericium erinaceus)",
+                    "amount": "600mg",
+                    "purpose": "Cognitive support and recovery"
+                },
+                {
+                    "name": "Ashwagandha (Withania somnifera) (root) (std to 5% total withanolides)",
+                    "amount": "500mg",
+                    "purpose": "Stress reduction and recovery"
+                },
+                {
+                    "name": "Valerian Root Powder (Valeriana officinalis) (100% valeric acids)",
+                    "amount": "400mg",
+                    "purpose": "Natural sleep aid"
+                },
+                {
+                    "name": "L-Theanine",
+                    "amount": "400mg",
+                    "purpose": "Relaxation without drowsiness"
+                },
+                {
+                    "name": "Chamomile Extract",
+                    "amount": "350mg",
+                    "purpose": "Calming and sleep promotion"
+                },
+                {
+                    "name": "Gamma-Aminobutyric Acid (GABA)",
+                    "amount": "200mg",
+                    "purpose": "Calming neurotransmitter support"
+                },
+                {
+                    "name": "Lycopene",
+                    "amount": "10mg",
+                    "purpose": "Antioxidant and recovery support"
+                },
+                {
+                    "name": "MicroActive Melatonin (Sustained Release)",
+                    "amount": "1.5mg",
+                    "purpose": "Extended sleep hormone regulation"
+                },
+                {
+                    "name": "Melatonin (Instant Release)",
+                    "amount": "1.5mg",
+                    "purpose": "Immediate sleep onset support"
+                }
+            ],
+            "otherIngredients": [
+                "Citric acid",
+                "Natural and Artificial Flavors",
+                "Maltodextrin",
+                "Red Russet Cocoa",
+                "Silica",
+                "Salt",
+                "Acesulfame-K"
+            ],
+            "usage": {
+                "dosage": "1 serving (1 scoop)",
+                "timing": "Immediately before bedtime",
+                "instructions": "Take with 8-12 fl oz of water"
+            },
+            "warnings": [
+                "Consult physician before use if pregnant or nursing",
+                "Do not exceed recommended dosage",
+                "May cause drowsiness - do not drive after taking"
+            ],
+            "websiteUrl": "https://troponinsupplements.com/collections/all-supplements/products/hit-the-rack-nighttime-drink",
+            "tags": [
+                "recovery",
+                "sleep",
+                "night time",
+                "post-workout",
+                "anxiety",
+                "relaxation",
+                "mixed berry"
+            ]
+        },
+        {
+            "id": "wtf-pre-workout",
+            "name": "WTF Pre-Workout",
+            "category": "individual-supplements",
+            "type": "supplement",
+            "availableOn": [
+                "troponin-nutrition",
+                "troponin-supplements"
+            ],
+            "description": "Pre-workout powder designed to boost energy, focus, muscle pumps, and enhance fat metabolism for superior workouts. Stimulant formula for fitness enthusiasts.",
+            "flavor": "[missing]",
+            "keyBenefits": [
+                "Increase Your Pumps",
+                "Boost Energy Levels",
+                "Improve Mental Focus",
+                "Get a Better Workout",
+                "Avoid Post-Workout Crash",
+                "Burn Unwanted Fat",
+                "Build Muscle More Effectively"
+            ],
+            "servingInfo": {
+                "servingSize": "1 scoop (12.5g)",
+                "servingsPerContainer": 20
+            },
+            "keyIngredients": [
+                {
+                    "name": "Niacin (as Nicotinic Acid)",
+                    "amount": "20mg",
+                    "purpose": "Vasodilation and circulation support",
+                    "dvPercent": "125%"
+                },
+                {
+                    "name": "Sodium (as Himalayan Pink Sea Salt)",
+                    "amount": "115mg",
+                    "purpose": "Electrolyte balance and pump support",
+                    "dvPercent": "5%"
+                },
+                {
+                    "name": "Potassium (as Potassium Citrate)",
+                    "amount": "202.5mg",
+                    "purpose": "Electrolyte balance and muscle function",
+                    "dvPercent": "4%"
+                },
+                {
+                    "name": "L-Citrulline",
+                    "amount": "6,000mg",
+                    "purpose": "Nitric oxide production and muscle pumps"
+                },
+                {
+                    "name": "Beta Alanine",
+                    "amount": "3,000mg",
+                    "purpose": "Muscular endurance and power output"
+                },
+                {
+                    "name": "Betaine Anhydrous",
+                    "amount": "2,500mg",
+                    "purpose": "Power output and muscle growth"
+                },
+                {
+                    "name": "L-Tyrosine",
+                    "amount": "1,000mg",
+                    "purpose": "Focus and cognitive function under stress"
+                },
+                {
+                    "name": "Choline Bitartrate",
+                    "amount": "500mg",
+                    "purpose": "Cognitive function and mind-muscle connection"
+                },
+                {
+                    "name": "Caffeine Anhydrous",
+                    "amount": "300mg",
+                    "purpose": "Energy, focus, and fat oxidation"
+                },
+                {
+                    "name": "Eria Jarensis Extract (N-Phenethyl Dimethylamine)",
+                    "amount": "200mg",
+                    "purpose": "Enhanced mood and focus"
+                },
+                {
+                    "name": "L-Theanine",
+                    "amount": "150mg",
+                    "purpose": "Smooth energy and jitter reduction"
+                },
+                {
+                    "name": "Himalayan Pink Sea Salt",
+                    "amount": "100mg",
+                    "purpose": "Electrolyte replenishment and pumps"
+                },
+                {
+                    "name": "Synephrine HCl",
+                    "amount": "30mg",
+                    "purpose": "Fat oxidation and energy"
+                },
+                {
+                    "name": "Huperzine A (from Huperzia Serrata)",
+                    "amount": "200mcg",
+                    "purpose": "Enhanced focus and cognitive function"
+                }
+            ],
+            "otherIngredients": [
+                "Natural & Artificial Flavors",
+                "Citric Acid",
+                "Malic Acid",
+                "Silicon Dioxide",
+                "Sucralose",
+                "Acesulfame Potassium"
+            ],
+            "usage": {
+                "dosage": "1 scoop",
+                "timing": "Take before workout (new users: start with 1/2 scoop)",
+                "instructions": "Mix with 8-12 fl oz of water. Do not dry scoop."
+            },
+            "warnings": [
+                "May cause a niacin flush; redness due to blood vessel dilation.",
+                "Do not dry scoop.",
+                "Contains high amounts of caffeine - assess tolerance before use."
+            ],
+            "websiteUrl": "https://troponinsupplements.com/collections/all-supplements/products/wtf-pre-workout",
+            "tags": [
+                "pre-workout",
+                "energy",
+                "pump",
+                "fat burn",
+                "focus",
+                "muscle"
+            ]
+        },
+        {
+            "id": "micronized-creatine-monohydrate",
+            "name": "Micronized Creatine Monohydrate",
+            "category": "individual-supplements",
+            "type": "supplement",
+            "availableOn": [
+                "troponin-nutrition",
+                "troponin-supplements"
+            ],
+            "description": "Premium-grade, highly bioavailable creatine monohydrate. Formulated for optimal absorption, promoting strength, muscle growth, and recovery.",
+            "flavor": "[missing]",
+            "keyBenefits": [
+                "Increase Muscle Strength and Power",
+                "Enhances Athletic Performance",
+                "Accelerated Muscle Growth",
+                "Improves Recovery and Reduces Fatigue",
+                "Supports ATP Production for Energy"
+            ],
+            "servingInfo": {
+                "servingSize": "5g (1 rounded teaspoon)",
+                "servingsPerContainer": "60"
+            },
+            "keyIngredients": [
+                {
+                    "name": "Creatine Monohydrate (Micronized)",
+                    "amount": "5g",
+                    "purpose": "Strength, power, recovery"
+                }
+            ],
+            "otherIngredients": [
+                "None - Pure creatine monohydrate with no additives or fillers"
+            ],
+            "usage": {
+                "dosage": "1 scoop",
+                "timing": "Once or twice daily",
+                "instructions": "Mix 1 scoop into 8-16 oz of water or beverage"
+            },
+            "warnings": [
+                "[missing]"
+            ],
+            "websiteUrl": "https://troponinsupplements.com/collections/all-supplements/products/micronized-creatine-monohydrate",
+            "tags": [
+                "creatine",
+                "muscle",
+                "strength",
+                "recovery",
+                "performance",
+                "gmp"
+            ]
+        },
+        {
+            "id": "qrf-liver-support",
+            "name": "QRF 3-in-1 Liver Support",
+            "category": "individual-supplements",
+            "type": "supplement",
+            "availableOn": [
+                "troponin-nutrition",
+                "troponin-supplements"
+            ],
+            "description": "All-in-one solution for optimal liver health, designed for athletes seeking to aid recovery, detoxification, and maintain organ function.",
+            "flavor": "[missing]",
+            "keyBenefits": [
+                "Supports Optimal Liver Health",
+                "All-in-One Liver Aid Formula",
+                "Aids Athletic Recovery",
+                "Supports Detoxification Pathways"
+            ],
+            "servingInfo": {
+                "servingSize": "2 capsules",
+                "servingsPerContainer": 30
+            },
+            "keyIngredients": [
+                {
+                    "name": "QRF Liver Support Blend",
+                    "amount": "1,000mg",
+                    "purpose": "Comprehensive liver support and detoxification",
+                    "components": [
+                        "NAC (N-Acetyl-L-Cysteine)",
+                        "Milk Thistle Extract (Silybum marianum)",
+                        "TUDCA (Tauroursodeoxycholic Acid)"
+                    ]
+                }
+            ],
+            "otherIngredients": [
+                "Cellulose (Vegetable Capsule)",
+                "Rice Flour",
+                "Magnesium Stearate",
+                "Silicon Dioxide"
+            ],
+            "usage": {
+                "dosage": "2 capsules",
+                "timing": "Daily with 8-12 fl oz of water",
+                "instructions": "Take as dietary supplement"
+            },
+            "warnings": [
+                "[missing]"
+            ],
+            "websiteUrl": "https://troponinsupplements.com/collections/all-supplements/products/qrf-liver-support",
+            "tags": [
+                "liver",
+                "detox",
+                "organ health",
+                "athlete",
+                "recovery"
+            ]
+        },
+        {
+            "id": "the-fat-burner",
+            "name": "Go Pills - The Fat Burner",
+            "category": "individual-supplements",
+            "type": "supplement",
+            "availableOn": [
+                "troponin-nutrition",
+                "troponin-supplements"
+            ],
+            "description": "Fat-burning matrix to help drop water and fat while increasing focus, metabolism, and energy during weight loss programs.",
+            "flavor": "[missing]",
+            "keyBenefits": [
+                "Expert-Formulated with Research-Backed Ingredients",
+                "Burns Fat and Promotes Water Loss",
+                "Increases Focus and Metabolism",
+                "Great Energy for Hours"
+            ],
+            "servingInfo": {
+                "servingSize": "1 capsule",
+                "servingsPerContainer": 120
+            },
+            "keyIngredients": [
+                {
+                    "name": "Green Tea Extract (Camellia sinensis) (leaf) (std to 50% EGCG)",
+                    "amount": "500mg",
+                    "purpose": "Fat oxidation and metabolic support"
+                },
+                {
+                    "name": "Caffeine Anhydrous",
+                    "amount": "150mg",
+                    "purpose": "Energy, focus, and thermogenesis"
+                },
+                {
+                    "name": "TeaCrine® (Theacrine)",
+                    "amount": "62.5mg",
+                    "purpose": "Sustained energy without tolerance buildup"
+                },
+                {
+                    "name": "Yohimbine HCl",
+                    "amount": "2.5mg",
+                    "purpose": "Targeted fat loss and alpha-2 receptor antagonism"
+                }
+            ],
+            "otherIngredients": [
+                "Gelatin (capsules)",
+                "Dicalcium Phosphate",
+                "Magnesium Stearate",
+                "Silicon dioxide"
+            ],
+            "usage": {
+                "dosage": "1 capsule",
+                "timing": "[missing]",
+                "instructions": "Take with 8-12 fl oz of water"
+            },
+            "warnings": [
+                "[missing]"
+            ],
+            "websiteUrl": "https://troponinsupplements.com/collections/all-supplements/products/the-fat-burner",
+            "tags": [
+                "fat burner",
+                "weight loss",
+                "energy",
+                "focus",
+                "go pills",
+                "120 servings"
+            ]
+        }
+    ]
+}

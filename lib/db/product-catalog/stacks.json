@@ -1,0 +1,157 @@
+{
+    "metadata": {
+        "category": "supplement-stacks",
+        "totalProducts": 3,
+        "lastUpdated": "2024-01-15",
+        "note": "Stacks are exclusive to troponin-supplements platform"
+    },
+    "products": [
+        {
+            "id": "optimal-organ-protection-stack",
+            "name": "Optimal Organ Protection Supplement Stack",
+            "category": "supplement-stacks",
+            "type": "stack",
+            "availableOn": [
+                "troponin-supplements"
+            ],
+            "description": "Safeguard your wellness and performance with our comprehensive organ health stack, supporting both liver and kidney function as well as optimal carb utilization. The stack features targeted formulas for athletes seeking longevity, recovery, and enhanced nutrient partitioning.",
+            "subtitle": "Liver, Kidney, and Glucose Support",
+            "availability": {
+                "status": "in_stock",
+                "message": "Available for purchase while supplies last"
+            },
+            "components": [
+                {
+                    "productId": "qrf-liver-support",
+                    "quantity": 1,
+                    "role": "liver-support"
+                },
+                {
+                    "productId": "renal-reset",
+                    "quantity": 1,
+                    "role": "kidney-support"
+                },
+                {
+                    "productId": "suppressor-max",
+                    "quantity": 1,
+                    "role": "carbohydrate-support"
+                }
+            ],
+            "stackBenefits": [
+                "Improves and maintains optimal liver function",
+                "Supports kidney health and blood pressure regulation",
+                "Enhances blood sugar control and nutrient partitioning",
+                "Ideal for high-performing athletes and proactive health seekers"
+            ],
+            "usage": {
+                "instructions": "Take each product as labeled for comprehensive liver, kidney, and glucose support.",
+                "timing": "QRF Liver: Daily with water | Renal Reset: Daily or split AM/PM | Suppressor Max: With high-carb meals or as needed"
+            },
+            "tags": [
+                "stack",
+                "organ health",
+                "liver support",
+                "kidney support",
+                "carb control",
+                "partitioning",
+                "bundle",
+                "complete solution"
+            ]
+        },
+        {
+            "id": "muscle-repair-recovery-stack",
+            "name": "Muscle Repair & Recovery Stack",
+            "category": "supplement-stacks",
+            "type": "stack",
+            "availableOn": [
+                "troponin-supplements"
+            ],
+            "description": "Elevate your workout gains with our revolutionary intra-workout drink mix designed to enhance muscle recovery and boost your pumps in the gym. Promote a rejuvenating night's rest and optimize your training outcomes with our nighttime recovery formula, ensuring you wake up refreshed and ready for the next challenge.",
+            "subtitle": "Faster Muscle Recovery",
+            "availability": {
+                "status": "limited_time",
+                "message": "Available for a limited time"
+            },
+            "components": [
+                {
+                    "productId": "field-rations",
+                    "quantity": 1,
+                    "role": "intra-workout"
+                },
+                {
+                    "productId": "hit-the-rack",
+                    "quantity": 1,
+                    "role": "nighttime-recovery"
+                }
+            ],
+            "stackBenefits": [
+                "Complete 24-hour muscle recovery solution",
+                "Enhanced workout performance and recovery",
+                "Optimal sleep and wake-up refreshed",
+                "Synergistic effects of intra-workout and nighttime nutrition"
+            ],
+            "usage": {
+                "instructions": "Use Field Rations during workouts and Hit The Rack before bedtime for complete recovery support",
+                "timing": "Field Rations: During exercise | Hit The Rack: Before bed"
+            },
+            "tags": [
+                "stack",
+                "bundle",
+                "recovery",
+                "muscle repair",
+                "intra-workout",
+                "nighttime",
+                "complete solution",
+                "limited time"
+            ]
+        },
+        {
+            "id": "training-stack",
+            "name": "Training Stack",
+            "category": "supplement-stacks",
+            "type": "stack",
+            "availableOn": [
+                "troponin-supplements"
+            ],
+            "description": "Power your workout from the first rep to the last with the essential pre- and intra-workout stack by Troponin. The Training Stack combines energy, focus, pump, and muscle-protective intra-workout nutrition for complete workout optimization.",
+            "subtitle": "Ultimate Pre & Intra-Workout Combo",
+            "availability": {
+                "status": "in_stock",
+                "message": "Available at a discounted bundle rate"
+            },
+            "components": [
+                {
+                    "productId": "wtf-pre-workout",
+                    "quantity": 1,
+                    "role": "pre-workout"
+                },
+                {
+                    "productId": "field-rations",
+                    "quantity": 1,
+                    "role": "intra-workout"
+                }
+            ],
+            "stackBenefits": [
+                "Boosts energy, focus, and muscle pumps",
+                "Accelerates recovery and muscle growth",
+                "Supports muscle protein synthesis and hydration",
+                "Ideal for maximizing each workout session"
+            ],
+            "usage": {
+                "instructions": "Take WTF Pre-Workout before training and Field Rations during exercise for optimal results.",
+                "timing": "WTF: Before training | Field Rations: During training"
+            },
+            "tags": [
+                "stack",
+                "training",
+                "pre-workout",
+                "intra-workout",
+                "energy",
+                "pump",
+                "hydration",
+                "bundle",
+                "performance"
+            ]
+        }
+    ]
+}

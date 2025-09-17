@@ -1,0 +1,98 @@
+{
+    "metadata": {
+        "version": "2.0.0",
+        "lastUpdated": "2024-01-15",
+        "description": "Main index for Troponin product catalog - optimized for AI agent routing"
+    },
+    "platforms": {
+        "troponin-nutrition": {
+            "name": "Troponin Nutrition",
+            "description": "Comprehensive platform for nutrition coaching, custom programs, and training services",
+            "focus": "service-oriented",
+            "website": "https://troponinnutrition.com",
+            "uniqueOfferings": [
+                "Personal coaching (monthly/yearly)",
+                "Nutrition consultations",
+                "Custom meal plans",
+                "Custom training programs",
+                "Educational content and courses"
+            ],
+            "availableCategories": [
+                "coaching-services",
+                "supplements",
+                "programs",
+                "books"
+            ]
+        },
+        "troponin-supplements": {
+            "name": "Troponin Supplements",
+            "description": "E-commerce hub focused on supplements, supplement stacks, and branded merchandise",
+            "focus": "product-retail",
+            "website": "https://troponinsupplements.com",
+            "uniqueOfferings": [
+                "Supplement stacks (bundles)",
+                "Individual supplements",
+                "Optimized for supplement shopping"
+            ],
+            "availableCategories": [
+                "individual-supplements",
+                "supplement-stacks"
+            ]
+        }
+    },
+    "routingLogic": {
+        "troponin-nutrition": {
+            "recommendWhen": [
+                "User needs coaching or consultation",
+                "Looking for personalized programs",
+                "Wants custom meal/training plans",
+                "Seeking professional guidance",
+                "Interested in educational content"
+            ],
+            "keywords": [
+                "coaching",
+                "consultation",
+                "personal trainer",
+                "custom plan",
+                "meal plan",
+                "nutrition guidance",
+                "training program",
+                "learn",
+                "education",
+                "course"
+            ]
+        },
+        "troponin-supplements": {
+            "recommendWhen": [
+                "User wants to buy supplements",
+                "Looking for supplement stacks/bundles",
+                "Shopping for specific supplement products",
+                "Wants pre-built supplement combinations"
+            ],
+            "keywords": [
+                "supplement",
+                "stack",
+                "bundle",
+                "buy",
+                "shop",
+                "product",
+                "pre-workout",
+                "protein",
+                "creatine"
+            ]
+        }
+    },
+    "productSummary": {
+        "individualSupplements": 9,
+        "supplementStacks": 3,
+        "books": 9,
+        "programs": 7,
+        "coachingServices": 2
+    },
+    "dataFiles": {
+        "supplements": "supplements.json",
+        "stacks": "stacks.json",
+        "booksPrograms": "books-programs.json",
+        "quickReference": "products-quick-ref.json"
+    }
+}

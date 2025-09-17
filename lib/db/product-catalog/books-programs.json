@@ -1,0 +1,518 @@
+{
+    "metadata": {
+        "category": "books-programs",
+        "totalProducts": 16,
+        "lastUpdated": "2024-01-15",
+        "note": "Educational content showcasing Justin's expertise - books available on both platforms, programs exclusive to troponin-nutrition"
+    },
+    "books": [
+        {
+            "id": "cpn-vol-1",
+            "name": "Comprehensive Performance Nutrition – Volume 1",
+            "category": "books",
+            "type": "ebook",
+            "availableOn": [
+                "troponin-nutrition"
+            ],
+            "description": "The book that started it all – 150+ pages covering performance-focused nutrition fundamentals, Q&A sections, and practical diet guidance.",
+            "keyBenefits": [
+                "Master nutrition fundamentals for performance",
+                "150+ pages of evidence-based content",
+                "Q&A sections addressing common questions",
+                "Practical diet guidance and implementation",
+                "Foundation knowledge from Troponin's expertise"
+            ],
+            "contentDetails": {
+                "format": "Digital PDF",
+                "pages": "150+",
+                "level": "Beginner to Intermediate"
+            },
+            "websiteUrl": "https://www.troponinnutrition.com/products/comprehensive-performance-nutrition-volume-1",
+            "tags": [
+                "nutrition",
+                "performance",
+                "ebook",
+                "fundamentals"
+            ]
+        },
+        {
+            "id": "cpn-vol-2",
+            "name": "Comprehensive Performance Nutrition – Volume 2",
+            "category": "books",
+            "type": "ebook",
+            "availableOn": [
+                "troponin-nutrition"
+            ],
+            "description": "Successor to Volume 1 with 200+ pages of advanced nutrition, training and supplement strategies for strength athletes.",
+            "keyBenefits": [
+                "Advanced nutrition strategies for strength athletes",
+                "200+ pages of comprehensive content",
+                "Training and supplement integration",
+                "Evidence-based recommendations",
+                "Next-level performance optimization"
+            ],
+            "contentDetails": {
+                "format": "Digital PDF",
+                "pages": "200+",
+                "level": "Intermediate to Advanced"
+            },
+            "websiteUrl": "https://www.troponinnutrition.com/products/comprehensive-performance-nutrition-volume-2",
+            "tags": [
+                "nutrition",
+                "advanced",
+                "ebook",
+                "strength athletes"
+            ]
+        },
+        {
+            "id": "cpn-paperback-vol-1",
+            "name": "Comprehensive Performance Nutrition Paperback – Volume 1",
+            "category": "books",
+            "type": "paperback",
+            "availableOn": [
+                "troponin-nutrition"
+            ],
+            "description": "Print edition of Volume 1 for readers who prefer a physical reference guide.",
+            "keyBenefits": [
+                "Physical reference guide you can hold",
+                "Same comprehensive content as digital version",
+                "Easy to reference during meal planning",
+                "No screen time required",
+                "Perfect for gym bag or kitchen"
+            ],
+            "contentDetails": {
+                "format": "Physical Paperback",
+                "pages": "150+",
+                "level": "Beginner to Intermediate"
+            },
+            "websiteUrl": "https://www.troponinnutrition.com/products/comprehensive-performance-nutrition-paperback-volume-1",
+            "tags": [
+                "nutrition",
+                "paperback",
+                "physical",
+                "reference"
+            ]
+        },
+        {
+            "id": "cpn-paperback-vol-2",
+            "name": "Comprehensive Performance Nutrition Paperback – Volume 2",
+            "category": "books",
+            "type": "paperback",
+            "availableOn": [
+                "troponin-nutrition"
+            ],
+            "description": "Print edition of Volume 2 with the same advanced content in hard-copy format.",
+            "keyBenefits": [
+                "Advanced content in physical format",
+                "200+ pages you can reference anywhere",
+                "Perfect for serious strength athletes",
+                "Durable reference guide",
+                "No digital device required"
+            ],
+            "contentDetails": {
+                "format": "Physical Paperback",
+                "pages": "200+",
+                "level": "Intermediate to Advanced"
+            },
+            "websiteUrl": "https://www.troponinnutrition.com/products/comprehensive-performance-nutrition-paperback-volume-2",
+            "tags": [
+                "nutrition",
+                "paperback",
+                "advanced",
+                "physical"
+            ]
+        },
+        {
+            "id": "critical-mass-paperback",
+            "name": "Critical Mass Paperback Training Program",
+            "category": "books",
+            "type": "paperback",
+            "availableOn": [
+                "troponin-nutrition"
+            ],
+            "description": "Printed version of the Critical Mass hypertrophy program for lifters who prefer a physical manual.",
+            "keyBenefits": [
+                "Complete hypertrophy training program in print",
+                "Easy to bring to the gym",
+                "Detailed exercise descriptions and progressions",
+                "No phone or device needed during workouts",
+                "Proven mass-building methodology"
+            ],
+            "contentDetails": {
+                "format": "Physical Training Manual",
+                "focus": "Hypertrophy & Mass Building",
+                "level": "Intermediate to Advanced"
+            },
+            "websiteUrl": "https://www.troponinnutrition.com/products/critical-mass-paperback-training-program",
+            "tags": [
+                "training",
+                "hypertrophy",
+                "paperback",
+                "mass building"
+            ]
+        },
+        {
+            "id": "executive-fitness",
+            "name": "Executive Fitness",
+            "category": "books",
+            "type": "ebook",
+            "availableOn": [
+                "troponin-nutrition"
+            ],
+            "description": "Lifestyle and training guide that adapts Troponin methodologies to busy business schedules.",
+            "keyBenefits": [
+                "Fitness strategies for busy professionals",
+                "Time-efficient training methods",
+                "Lifestyle integration techniques",
+                "Practical nutrition for business travel",
+                "Work-life balance optimization"
+            ],
+            "contentDetails": {
+                "format": "Digital PDF",
+                "focus": "Executive & Professional Lifestyle",
+                "level": "All Levels"
+            },
+            "websiteUrl": "https://www.troponinnutrition.com/products/executive-fitness",
+            "tags": [
+                "lifestyle",
+                "ebook",
+                "busy professionals",
+                "time-efficient"
+            ]
+        },
+        {
+            "id": "fatal-fitness",
+            "name": "Fatal Fitness",
+            "category": "books",
+            "type": "ebook",
+            "availableOn": [
+                "troponin-nutrition"
+            ],
+            "description": "Advanced physique and conditioning program targeted at experienced trainees demanding maximal results.",
+            "keyBenefits": [
+                "Extreme physique transformation methods",
+                "Advanced conditioning protocols",
+                "Maximum intensity training approaches",
+                "Elite-level performance strategies",
+                "Results-driven methodology"
+            ],
+            "contentDetails": {
+                "format": "Digital PDF",
+                "focus": "Advanced Physique & Conditioning",
+                "level": "Advanced Only"
+            },
+            "websiteUrl": "https://www.troponinnutrition.com/products/fatal-fitness",
+            "tags": [
+                "conditioning",
+                "advanced",
+                "ebook",
+                "extreme results"
+            ]
+        },
+        {
+            "id": "hmw-carbs-explained",
+            "name": "High Molecular Weight Carbohydrates Explained",
+            "category": "books",
+            "type": "ebook",
+            "availableOn": [
+                "troponin-nutrition"
+            ],
+            "description": "Scientific breakdown of HMW carbs and how they enhance glycogen replenishment and recovery.",
+            "keyBenefits": [
+                "Deep dive into HMW carbohydrate science",
+                "Optimize glycogen replenishment strategies",
+                "Enhanced recovery protocols",
+                "Evidence-based supplementation guidance",
+                "Performance nutrition mastery"
+            ],
+            "contentDetails": {
+                "format": "Digital PDF",
+                "focus": "Carbohydrate Science & Recovery",
+                "level": "Intermediate to Advanced"
+            },
+            "websiteUrl": "https://www.troponinnutrition.com/products/high-molecular-weight-carbohydrates-explained",
+            "tags": [
+                "carbohydrates",
+                "recovery",
+                "ebook",
+                "science"
+            ]
+        },
+        {
+            "id": "power-bodybuilding-paperback",
+            "name": "Power Bodybuilding Paperback Training Program",
+            "category": "books",
+            "type": "paperback",
+            "availableOn": [
+                "troponin-nutrition"
+            ],
+            "description": "Printed dual-focus strength and hypertrophy program emphasizing heavy compounds with targeted volume work.",
+            "keyBenefits": [
+                "Best of both powerlifting and bodybuilding",
+                "Heavy compound movement focus",
+                "Targeted hypertrophy volume work",
+                "Physical manual for gym reference",
+                "Dual-focus strength and size gains"
+            ],
+            "contentDetails": {
+                "format": "Physical Training Manual",
+                "focus": "Strength & Hypertrophy Combined",
+                "level": "Intermediate to Advanced"
+            },
+            "websiteUrl": "https://www.troponinnutrition.com/products/power-bodybuilding-paperback-training-program",
+            "tags": [
+                "powerbuilding",
+                "paperback",
+                "strength",
+                "hypertrophy"
+            ]
+        }
+    ],
+    "programs": [
+        {
+            "id": "critical-mass-diet",
+            "name": "Critical Mass Diet Program",
+            "category": "programs",
+            "type": "diet-program",
+            "availableOn": [
+                "troponin-nutrition"
+            ],
+            "description": "Structured carb-cycling diet plan designed to add significant muscle mass while managing body-fat levels.",
+            "keyBenefits": [
+                "Structured carb-cycling for mass gains",
+                "Muscle building while managing body fat",
+                "Customizable to individual needs",
+                "Systematic approach to bulking",
+                "Evidence-based nutrition timing"
+            ],
+            "programDetails": {
+                "format": "Digital Program + Guidelines",
+                "duration": "Flexible (typically 12-16 weeks)",
+                "focus": "Mass Gain & Body Composition",
+                "level": "Intermediate to Advanced"
+            },
+            "websiteUrl": "https://www.troponinnutrition.com/products/critical-mass-diet-program",
+            "tags": [
+                "diet",
+                "carb cycling",
+                "mass-gain",
+                "body composition"
+            ]
+        },
+        {
+            "id": "critical-mass-training",
+            "name": "Critical Mass Training Program",
+            "category": "programs",
+            "type": "training-program",
+            "availableOn": [
+                "troponin-nutrition"
+            ],
+            "description": "High-frequency push/pull/legs routine combining progressive overload and metabolic work to maximize size and strength.",
+            "keyBenefits": [
+                "High-frequency push/pull/legs split",
+                "Progressive overload methodology",
+                "Metabolic work integration",
+                "Maximum size and strength gains",
+                "Systematic training progression"
+            ],
+            "programDetails": {
+                "format": "Structured Training Program",
+                "duration": "12-16 weeks",
+                "schedule": "6 days per week",
+                "focus": "Hypertrophy & Strength",
+                "level": "Intermediate to Advanced"
+            },
+            "websiteUrl": "https://www.troponinnutrition.com/products/critical-mass-training-program",
+            "tags": [
+                "training",
+                "hypertrophy",
+                "strength",
+                "high frequency"
+            ]
+        },
+        {
+            "id": "final-week-blood-sugar",
+            "name": "Final Week Blood Sugar Template",
+            "category": "programs",
+            "type": "competition-template",
+            "availableOn": [
+                "troponin-nutrition"
+            ],
+            "description": "Spreadsheet-based protocol for optimizing blood-glucose control during the final week before a physique event.",
+            "keyBenefits": [
+                "Optimize blood glucose for competition",
+                "Final week peak preparation",
+                "Spreadsheet-based tracking",
+                "Physique competition specific",
+                "Scientific approach to peaking"
+            ],
+            "programDetails": {
+                "format": "Excel Spreadsheet + Protocol",
+                "duration": "7 days (final week)",
+                "focus": "Competition Preparation",
+                "level": "Advanced"
+            },
+            "websiteUrl": "https://www.troponinnutrition.com/products/final-week-blood-sugar-template",
+            "tags": [
+                "competition",
+                "blood sugar",
+                "template",
+                "peaking"
+            ]
+        },
+        {
+            "id": "massive-carb-cycling",
+            "name": "MASSIVE – A Carb Cycling Approach for Mass",
+            "category": "programs",
+            "type": "diet-program",
+            "availableOn": [
+                "troponin-nutrition"
+            ],
+            "description": "Customizable mass-gain diet spreadsheet that automates high, medium and low-carb days based on weight and body-fat inputs.",
+            "keyBenefits": [
+                "Automated carb cycling calculations",
+                "Customizable based on your metrics",
+                "High, medium, and low-carb day planning",
+                "Mass gain optimization",
+                "Spreadsheet automation for ease of use"
+            ],
+            "programDetails": {
+                "format": "Excel Spreadsheet + Guidelines",
+                "duration": "Flexible (ongoing)",
+                "focus": "Mass Gain & Carb Cycling",
+                "level": "Beginner to Advanced"
+            },
+            "websiteUrl": "https://www.troponinnutrition.com/products/massive-a-carb-cycling-approach-for-mass",
+            "tags": [
+                "mass gain",
+                "carb cycling",
+                "diet",
+                "automation"
+            ]
+        },
+        {
+            "id": "power-bodybuilding-training",
+            "name": "Power Bodybuilding Training Program",
+            "category": "programs",
+            "type": "training-program",
+            "availableOn": [
+                "troponin-nutrition"
+            ],
+            "description": "Progressive overload system blending powerlifting rep schemes with bodybuilding volume for maximal muscle and strength.",
+            "keyBenefits": [
+                "Best of powerlifting and bodybuilding",
+                "Progressive overload methodology",
+                "Maximal muscle and strength gains",
+                "Hybrid training approach",
+                "Systematic progression tracking"
+            ],
+            "programDetails": {
+                "format": "Structured Training Program",
+                "duration": "12-16 weeks",
+                "schedule": "4-5 days per week",
+                "focus": "Strength & Hypertrophy",
+                "level": "Intermediate to Advanced"
+            },
+            "websiteUrl": "https://www.troponinnutrition.com/products/power-bodybuilding-training-program",
+            "tags": [
+                "powerbuilding",
+                "strength",
+                "hypertrophy",
+                "progressive overload"
+            ]
+        },
+        {
+            "id": "shredded-carb-cycling",
+            "name": "SHREDDED – A Carb Cycling Approach",
+            "category": "programs",
+            "type": "diet-program",
+            "availableOn": [
+                "troponin-nutrition"
+            ],
+            "description": "Excel-driven fat-loss plan that personalizes low, medium and high-carb days to preserve muscle while dropping body-fat.",
+            "keyBenefits": [
+                "Personalized carb cycling for fat loss",
+                "Muscle preservation during cuts",
+                "Excel-driven automation",
+                "Low, medium, and high-carb day planning",
+                "Systematic approach to getting shredded"
+            ],
+            "programDetails": {
+                "format": "Excel Spreadsheet + Guidelines",
+                "duration": "8-16 weeks",
+                "focus": "Fat Loss & Muscle Preservation",
+                "level": "Intermediate to Advanced"
+            },
+            "websiteUrl": "https://www.troponinnutrition.com/products/shredded-a-carb-cycling-approach",
+            "tags": [
+                "fat loss",
+                "carb cycling",
+                "diet",
+                "muscle preservation"
+            ]
+        },
+        {
+            "id": "static-strength",
+            "name": "STATIC STRENGTH – Power Building for Strength Athletes",
+            "category": "programs",
+            "type": "training-program",
+            "availableOn": [
+                "troponin-nutrition"
+            ],
+            "description": "Four-day power-building routine created for home or garage gyms; deceptively challenging and strength focused.",
+            "keyBenefits": [
+                "Perfect for home or garage gyms",
+                "Four-day training schedule",
+                "Strength-focused powerbuilding",
+                "Minimal equipment requirements",
+                "Deceptively challenging programming"
+            ],
+            "programDetails": {
+                "format": "Structured Training Program",
+                "duration": "12-16 weeks",
+                "schedule": "4 days per week",
+                "focus": "Strength & Power",
+                "level": "Intermediate to Advanced",
+                "equipment": "Home/Garage Gym Friendly"
+            },
+            "websiteUrl": "https://www.troponinnutrition.com/products/static-strength-power-building-for-strength-athletes",
+            "tags": [
+                "strength",
+                "powerbuilding",
+                "home gym",
+                "minimal equipment"
+            ]
+        },
+        {
+            "id": "water-cutting-loading",
+            "name": "Water Cutting & Loading for Competition",
+            "category": "programs",
+            "type": "competition-guide",
+            "availableOn": [
+                "troponin-nutrition"
+            ],
+            "description": "Step-by-step protocol to drop up to 30 lb in 72 hours and safely reload before weigh-ins.",
+            "keyBenefits": [
+                "Drop up to 30 lbs in 72 hours",
+                "Safe water manipulation protocols",
+                "Step-by-step competition preparation",
+                "Professional weight cutting methods",
+                "Safe reloading strategies"
+            ],
+            "programDetails": {
+                "format": "Detailed Protocol + Guidelines",
+                "duration": "72 hours + reload phase",
+                "focus": "Weight Cutting & Competition Prep",
+                "level": "Advanced",
+                "application": "Competition Athletes Only"
+            },
+            "websiteUrl": "https://www.troponinnutrition.com/products/water-cutting-loading-for-competition",
+            "tags": [
+                "weight cut",
+                "competition",
+                "water manipulation",
+                "contest prep"
+            ]
+        }
+    ]
+}
